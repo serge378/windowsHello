@@ -1,0 +1,48 @@
+/*Downloaded from https://www.codeseek.co/balapa/windows-hello-animation-VvVebO */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  height: 100%;
+}
+
+.hello {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 55px;
+  font-family: "roboto";
+  font-weight: 300;
+}
+
+#main-ctr {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.content {
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;
+}
+
+svg {
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  transform: scale(0.5);
+}
+svg #smile-up,
+svg #circle,
+svg #eye-to-left,
+svg #eye-to-right,
+svg #wink,
+svg #cross-2,
+svg #cross-1,
+svg #bg {
+  visibility: hidden;
+}
